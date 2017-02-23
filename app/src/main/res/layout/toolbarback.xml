@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarback"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+
+
+        <RelativeLayout
+            android:id="@+id/linear_img_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:src="@drawable/iconback" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titletoolbar"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

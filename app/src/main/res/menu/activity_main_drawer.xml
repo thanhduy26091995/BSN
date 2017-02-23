@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_page"
+            android:icon="@drawable/ic_address_big"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/nav_contacts" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_chat_room"
+            android:title="@string/nav_messages" />
+
+        <item
+            android:id="@+id/nav_room"
+            android:icon="@drawable/ic_room"
+            android:title="@string/nav_room" />
+        <item
+            android:id="@+id/nav_member_around"
+            android:icon="@drawable/ic_member_around"
+            android:title="@string/nav_member_around" />
+        <!--<item-->
+            <!--android:id="@+id/nav_discount"-->
+            <!--android:icon="@drawable/ic_discount"-->
+            <!--android:title="@string/nav_discount" />-->
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="@string/nav_news" />
+        <!--
+        collapse item
+         <item
+             android:id="@+id/nav_bstyle"
+             android:title="Bstyle.vn" />
+         <item
+             android:id="@+id/nav_pcdn"
+             android:title="PCDN Online" />
+        -->
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events"
+            android:title="@string/nav_events" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_log_out"
+            android:title="@string/nav_logout" />
+    </group>
+
+    <!--<item android:title="Other">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_about_us"-->
+    <!--android:title="@string/nav_about_us" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_privacy_policy"-->
+    <!--android:title="@string/privacy_policy" />-->
+    <!--</menu>-->
+    <!--</item>-->
+</menu>

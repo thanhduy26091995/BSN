@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1017975465318",
+    "firebase_url": "https://bsnapp-93c52.firebaseio.com",
+    "project_id": "bsnapp-93c52",
+    "storage_bucket": "bsnapp-93c52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017975465318:android:d6ffe9cac52c554e",
+        "android_client_info": {
+          "package_name": "com.hbbmobile.bsnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017975465318-leuvtul5mqgpto0j30tgqtj3iallkgf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hbbmobile.bsnapp",
+            "certificate_hash": "E49308AAC1E9ED4BF519FB2AE3C88E35A278C486"
+          }
+        },
+        {
+          "client_id": "1017975465318-e34p6hhevcslchc7qgpsekoe9sr5rtvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAflDoAprcc_YGam23-ak_XFBwAi6oAYXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017975465318-e34p6hhevcslchc7qgpsekoe9sr5rtvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1017975465318-gpku70croho9v1vcisr2nonb2uolfg11.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hbb.bsn"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

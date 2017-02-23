@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_framework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="IOS/ Android"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_projectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Name Project"
+        android:textColor="@color/text_color_yellow"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Vào ngày 19/12 tới, 538 đại cử tri của nước Mỹ sẽ được tập hợp từ 50 tiểu bang và thủ đô Washington DC để bầu ra tổng thống và phó tổng thống theo nguyện vọng của người dân. Kết quả (đã biết trước) sẽ được Phó Tổng thống đương nhiệm Joe Biden “thông báo” trước Thượng viện"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Price: $500000"
+        android:textColor="@color/text_color_yellow" />
+</LinearLayout>

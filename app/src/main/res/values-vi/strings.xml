@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BSN</string>
+    <string name="facebook_app_id">1148275261959606</string>
+
+    <string name="userName">Họ và tên</string>
+    <string name="email">Email</string>
+    <string name="telephoneNumber">Số điện thoại</string>
+    <string name="passWord">Mật khẩu</string>
+    <string name="confirmPassWord">Nhập lại mật khẩu</string>
+    <string name="acceptTerm">Đồng ý điều khoản</string>
+    <string name="signUp">Đăng Ký</string>
+    <string name="rememberPassword">Nhớ mật khẩu</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="forgotPassword">Quên mật khẩu</string>
+    <string name="createAnAccount">Tạo tài khoản</string>
+    <string name="changeLanguage">Đổi ngôn ngữ</string>
+    <string name="notifications">Thông báo</string>
+    <string name="sendFeedback">Gửi phản hồi</string>
+    <string name="aboutUs">Về chúng tôi</string>
+    <string name="join">Tham gia</string>
+    <string name="detailEvent">Chi tiết sự kiện</string>
+    <string name="chooseLanguage">Chọn ngôn ngữ</string>
+    <string name="cancel">Hủy</string>
+    <string name="description">Mô tả</string>
+    <string name="profile">Thông tin cá nhân</string>
+    <string name="status">Trạng thái</string>
+    <string name="setOnline">Đang online</string>
+    <string name="nickName">Biệt danh</string>
+    <string name="gender">Giới tính</string>
+    <string name="title">Tiêu đề</string>
+    <string name="companyName">Tên công ty</string>
+    <string name="companyAddress">Đ/c công ty</string>
+    <string name="phoneNumber">Số điện thoại</string>
+    <string name="dateOfBirth">Ngày sinh</string>
+    <string name="aboutYou">Giới thiệu về bạn</string>
+    <string name="logOut">Đăng xuất</string>
+    <string name="addFriend">Thêm bạn</string>
+    <string name="chat">Trò truyện</string>
+    <string name="deleteAccount">Hủy kết bạn</string>
+    <string name="send">Gửi</string>
+    <string name="fillUsernamePassword">Hãy điền Email và mật khẩu!</string>
+    <string name="wrongFormatEmail">Sai định dạng Email!</string>
+    <string name="act_forgotpw_notification">Hãy điền Email để khôi phục được mật khẩu!</string>
+    <string name="confirm">Xác Nhận</string>
+    <string name="fillAllData">Hãy điền đầy đủ thông tin!</string>
+    <string name="phoneLength">Số điện thoại phải có 10 hoặc 11 kí tự!</string>
+    <string name="passwordLength">Mật khẩu phải nhiều hơn 6 kí tự!</string>
+    <string name="passwordDontMatch">Mật khẩu không khớp!</string>
+    <string name="registerSuccess">Đăng ký thành công!</string>
+    <string name="emailExists">Email đã tồn tại, vui lòng thử lại!</string>
+    <string name="registerFail">Đăng ký thất bại, vui lòng thử lại!</string>
+    <string name="cannotFindUser">Không thể tìm thấy người dùng, vui lòng thử lại!</string>
+    <string name="editProfileFail">Không thể chỉnh sửa thông tin, vui lòng thử lại!</string>
+    <string name="cannotLoadUser">Không thể lấy thông tin người dùng, vui lòng thử lại!</string>
+    <string name="cannotLoadDetailEvent">Không thể tải chi tiết sự kiện, vui lòng thử lại!</string>
+    <string name="canNotGetData">Không thể lấy dữ liệu, vui lòng thử lại!</string>
+    <string name="sendEmailVerify">Đăng ký thành công! Hãy xác thực Email trước khi bắt đầu sử dụng</string>
+    <string name="verifyFirst">Hãy xác thực Email trước khi bắt đầu sử dụng tính năng này!</string>
+    <string name="notification">Thông báo</string>
+    <string name="friendRequest">Yêu cầu kết bạn</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_bookmark">Bookmark</string>
+
+    <string name="throwError">Có lỗi! Vui lòng thử lại</string>
+
+    <string name="contacts">Danh bạ</string>
+    <string name="requests">Yêu cầu</string>
+
+    <string name="confirmUnfriend">Bạn có chắc chắn muốn xóa người này khỏi danh sách bạn bè không?</string>
+    <string name="defaultLanguage">Mặc định</string>
+    <string name="reload">Tải lại</string>
+
+    <string name="sendEmailForget">Email đã được gửi! Hãy kiểm tra email</string>
+    <string name="loading">Đang tải...</string>
+
+    <string name="hasRequest">đã gửi cho bạn lời mời kết bạn</string>
+    <string name="hasAcceptFriend">đã chấp nhận lời mời kết bạn của bạn</string>
+    <string name="sentImage">Bạn vừa gửi một ảnh</string>
+    <string name="receiveImage">Bạn vừa nhận một ảnh</string>
+    <string name="sendRequestSuccessfully">Gửi yêu cầu kết bạn thành công!</string>
+    <string name="search">Tìm kiếm</string>
+
+
+    <string name="call">Gọi điện thoại</string>
+    <string name="mail">Gửi email</string>
+
+    <!--Content chưa duyệt-->
+    <string name="change_group_picture">Thay đổi ảnh nhóm</string>
+    <string name="change_group_name">Đổi tên</string>
+    <string name="leave_group">Rời khỏi nhóm</string>
+
+    <string name="openGallery">Chọn ảnh</string>
+    <string name="openCamera">Chụp ảnh</string>
+
+    <string name="outGroup">Rời khỏi cuộc trò chuyện</string>
+    <string name="confirmOutGroup">Bạn có chắc chắn muốn rời khỏi cuộc trò chuyện này không? Bạn sẽ không nhận được tin nhắn mới nữa</string>
+    <string name="groupName">Thay đổi tên nhóm</string>
+    <string name="createGroup">Tạo nhóm</string>
+    <string name="addMember">Thêm thành viên</string>
+    <string name="memberJoin">Danh sách người tham gia</string>
+    <string name="kickMember">Mời khỏi nhóm</string>
+    <string name="seeProfile">Xem trang cá nhân</string>
+    <!---->
+
+    <string name="GPSTitle">Cài đặt GPS</string>
+    <string name="GPSContent">GPS chưa bật, bạn có muốn đi đến cài đặt?</string>
+    <string name="setting">Cài đặt</string>
+    <string name="huy">Hủy</string>
+
+    <string name="require">Bắt buộc</string>
+    <string name="inputPhoneNumber">Nhập số điện thoại</string>
+    <string name="unknowName">Chưa xác định</string>
+    <string name="acceptTerms">Bạn phải đồng ý điều khoản và các điều kiện</string>
+
+    <string-array name="arr_language">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <string name="loginFirst">Hãy đăng nhập trước khi sử dụng tính năng này!</string>
+
+    <string name="confirmLogOut">Bạn có chắc chắn không?</string>
+
+
+    <!--Menu navigation-->
+    <string name="nav_home">Trang Chủ</string>
+    <string name="nav_contacts">Danh Bạ</string>
+    <string name="nav_messages">Tin Nhắn</string>
+    <string name="nav_room">Phòng Trò Truyện</string>
+    <string name="nav_member_around">Thành Viên Gần Đây</string>
+    <string name="nav_discount">Giảm Giá</string>
+    <string name="nav_news">Tin Tức</string>
+    <string name="nav_events">Sự Kiện</string>
+    <string name="nav_settings">Cài Đặt</string>
+    <string name="nav_logout">Đăng Xuất</string>
+    <!--Title-->
+    <string-array name="nav_item_activity_titles">
+        <item>Trang Chủ</item>
+        <item>Danh Bạ</item>
+        <item>Tin Nhắn</item>
+        <item>Phòng Trò Truyện</item>
+        <item>Thành Viên Gần Đây</item>
+        <item>Giảm Giá</item>
+        <item>Tin Tức</item>
+        <item>Sự Kiện</item>
+        <item>Cài Đặt</item>
+    </string-array>
+</resources>

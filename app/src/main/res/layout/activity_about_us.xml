@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="com.hbbmobile.bsnapp.AboutUsActivity">
+
+    <include layout="@layout/toolbarback"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/about_us_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="BUSSINESS STYLE NETWWORKING"
+            android:textColor="@color/colorBSN"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dù ứng viên đảng Dân chủ Hillary Clinton giành đa số phiếu phổ thông với cách biệt 200.000 lá so với đối thủ, tỷ phú Trump mới là người chiến thắng chung cuộc khi giành quá bán số phiếu đại cử tri. Cuối ngày 10/11, Trump có 290 phiếu trong khi Clinton chỉ dành được 228, theo New York Post. "
+            android:textColor="#fcfcfc"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/optCall"
+            android:icon="@drawable/ic_call"
+            android:title="Call to your friend" />
+        <item
+            android:id="@+id/optRecord"
+            android:icon="@drawable/ic_recording"
+            android:title="Recording your voice" />
+        <item
+            android:id="@+id/optAttachFiles"
+            android:icon="@drawable/ic_attachfiles"
+            android:title="Attach files" />
+        <item
+            android:id="@+id/optTakePicture"
+            android:icon="@drawable/ic_takeapicture"
+            android:title="Take a picture" />
+        <item
+            android:id="@+id/optAttachPicture"
+            android:icon="@drawable/ic_attachpicture"
+            android:title="Attach pictures" />
+</menu>

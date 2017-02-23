@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <!--Header-->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height">
+
+        <com.hbbmobile.bsnapp.base.view.IconTextView
+            android:id="@+id/txtBack"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/fa_chevron_left"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_header" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@+id/header"
+        android:background="@color/white" />
+    <!--Content-->
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_big"
+            android:layout_weight="0.5"
+            android:gravity="left|center"
+            android:src="@drawable/icon_add_user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/emailOrPhoneNumber"
+                android:textColor="@color/text_color_yellow"
+                android:textSize="@dimen/icon_size_normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_drawable"
+                    android:layout_height="@dimen/icon_drawable"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_search" />
+
+                <EditText
+                    android:id="@+id/edt_email_or_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:hint="@string/inputPhoneNumber"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/icon_size_normal" />
+
+            </LinearLayout>
+
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="@string/messageInviteFriend"-->
+            <!--android:textColor="@color/text_color_yellow"-->
+            <!--android:textSize="@dimen/icon_size_normal" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/edt_message_invite_friend"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@color/white"-->
+            <!--android:drawableLeft="@drawable/search"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textColorHint="@color/white"-->
+            <!--android:textSize="@dimen/icon_size_normal" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/boder_button"
+        android:text="@string/search"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</RelativeLayout>

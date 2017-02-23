@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/img_event_logo"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.5"
+            android:src="@drawable/iconlogo" />
+
+        <TextView
+            android:id="@+id/txt_event_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3.5"
+            android:gravity="left|center"
+            android:text="DSAd"
+            android:textColor="@color/colorBSN"
+            android:textSize="@dimen/text_size_header"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img_event_poster"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/iconproject" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icontime" />
+
+                    <TextView
+                        android:id="@+id/txt_event_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Nov 10,2016|2:20 pm"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/map" />
+
+                    <TextView
+                        android:id="@+id/txt_event_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="123,Street 1,Distric 1,HCM city"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_event_numberOfChoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="10 people joined"
+                        android:textColor="@color/black" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtJoin"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/boder_button"
+                android:gravity="center"
+                android:text="@string/join"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/black" />
+</LinearLayout>
